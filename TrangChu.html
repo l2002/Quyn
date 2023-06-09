@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="icon" type="image/x-icon" href="img/logo.jpg">
+    
+    <title>FOR QUYN</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body onload="myFunction(),thongbaopopup()" style="margin:0;">
+    <div id="loader"></div>
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+    <div class="circle"></div>
+
+    <div class="container" >
+      <div class="left-side">  
+        <h2 style="display:none;" id="t1">QUAOOOO ❤</h2>
+         <img src="img/i3.png" id="i3" style="display:none;">  
+         <h2 style="display:none;" id="t2">Con cái nhà ai</h2>
+          <img src="img/i1(1).png" id="i1" style="display:none;">
+      </div>
+
+      <div class="right-side">
+        <img src="img/1.jpg" style="border-radius: 25px;width: 350px;margin-top: -90px;box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;" class = "starbucks">
+      </div>
+      <div class="btn">
+        <button style="--i:#a955ff;--j:#ea51ff;">
+         <span class="icon">
+           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+<path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+</svg>
+         </span>
+         <a class="title" href="index.html">BACK</a>
+     </button>
+     <button style="--i:#a955ff;--j:#ea51ff;">
+       <span class="icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+          <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"></path>
+          </svg>
+       </span>
+       <a class="title" href="next.html">NEXT</a>
+   </button>
+   <h2 style="display:none;" id="t3">Mà cute thếee</h2>
+   <img src="img/i2.png" id="i2" style="display:none;">     
+ </div>
+    </div>
+    <div class="thumb">
+      <a href = "#bottom"><img style="width: 100px;" id = "bottom" src="img/thumb1-removebg-preview.png" onclick="imgSlider('img/1.jpg');changeCircleColor('#FF9933');showDiv1()"> </a>
+      <a href="#bottom"><img style="width: 100px;" src="img/thumb2-removebg-preview.png" onclick="imgSlider('img/2.jpg');changeCircleColor('#666666');showDiv2()"> </a>
+      <a href="#bottom"><img style="width: 100px;" src="img/thmb3-removebg-preview.png" onclick="imgSlider('img/3.jpg');changeCircleColor('#3399FF');showDiv3()"> </a>     
+    </div>
+  </div>
+
+              <!-- Thong bao pupup -->
+<div class="tbpopup" id="tbpopup-1">
+  <div class="tboverlay"></div>
+  <div class="tbcontent">
+      <div class="tbclose-btn" onclick="thongbaopopup()">&times;</div>
+      <div class="hi">Xin Chào</div>
+      <div class="box-hover">
+        <img style="cursor: pointer;" width="80%" height="80%" src="img/luan-removebg-preview.png" alt="">
+        <img width="100%" height="100%" src="img/popup-removebg-preview.png" alt="" class="img-change">
+      </div>
+        <p  class="p3">GỢI Ý</p>
+      <br>
+      <h2 style="color: aliceblue;font-weight: bold;">Có thể rê chuột vô hình,vô trái tim ó.Chỗ nào có hình đều rê chuột vô được :3</h2>
+      <h2 style="color: aliceblue;font-weight: bold;">Ko tin thử đưa chuột vô hình tui đi = )) 👆👆👆</h2>
+      <div class="btthongbao" onclick="luan()">YAHHH</div>
+  </div>
+</div>
+    <script src = "js/script.js">
+    </script>
+  </body>
+</html>
