@@ -199,18 +199,22 @@ header ul li a.active{
     transform: translate(-50%, -50%) scale(1);
 }
 .tbbuttom {
-    background: #00cc00;
+    background: #cc00b8;
     color: #fff
 }
 .btthongbao {
     margin-top: 1rem;
     font-size: 1.3rem;
-    background-color: #30ab29;
+    background-color: #3a0135;
     border-radius: 1.5rem;
     color: #fff;
+    font-weight: bold;
     display: inline-block;
     padding: 0.8rem 7rem;
     cursor: pointer;
+}
+.btthongbao:hover{
+    background-color: #9c158f;
 }
 .p1{
     font-size:20px;
